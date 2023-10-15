@@ -1,0 +1,15 @@
+log/
+
+my/
+
+venv/
+
+*.pth
+
+visualization_tsne/
+
+vis_curves/
+
+results/
+
+*.zip
