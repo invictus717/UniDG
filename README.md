@@ -36,7 +36,7 @@
 </div>
 
 -----------------
-[![arXiv](https://img.shields.io/badge/arXiv-2310.xxxxx-b31b1b.svg?style=flat)](https://arxiv.org/abs/2310.xxxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2310.10008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2310.10008)
 [![website](https://img.shields.io/badge/Project-Website-brightgreen)](https://invictus717.github.io/Generalization/)
 [![LICENSE](https://img.shields.io/badge/LICENSE-Apache2.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 <!-- ![](https://img.shields.io/github/stars/invictus717/UniDG?style=social) -->
@@ -68,7 +68,7 @@ from 1.89M to 303M parameters, UniDG shows an average accuracy improvement of +5
 
 1. 🌟 ***Extensibility***:  we intergrate ***UniDG*** with Domainbed. More networks and algorithms can be built easily with our framework, and UniDG brings out an average improvement of `+5.0%` to existing methods including ERM, CORAL, and MIRO.
 
-2. 🌟 ***Reproducibility***: all implemented models are trained on various tasks at least three times. Mean±std is provided in the [UniDG paper](https://arxiv.org/abs/). *Pretrained models and logs* are available.
+2. 🌟 ***Reproducibility***: all implemented models are trained on various tasks at least three times. Mean±std is provided in the [UniDG paper](https://arxiv.org/abs/2310.10008). *Pretrained models and logs* are available.
 
 3. 🌟 ***Ease of Use***:  we develop tools to charge experimental logs with json files, which can transform results directly into latex:
 
@@ -198,11 +198,13 @@ python -m domainbed.scripts.visualize_curves\
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 
 ```
-@article{zhang2023towards,
-  title={Towards Unified and Effective Domain Generalization},
-  author={Zhang, Yiyuan and Gong, Kaixiong and Ding, Xiaohan and Zhang, Kaipeng and Lv, Fangrui and Keutzer, Kurt and Yue, Xiangyu},
-  journal={arXiv preprint arXiv:2310.xxxxx},
-  year={2023}
+@article{zhang2023unified,
+      title={Towards Unified and Effective Domain Generalization}, 
+      author={Yiyuan Zhang and Kaixiong Gong and Xiaohan Ding and Kaipeng Zhang and Fangrui Lv and Kurt Keutzer and Xiangyu Yue},
+      year={2023},
+      eprint={2310.10008},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
