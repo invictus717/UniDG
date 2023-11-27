@@ -647,7 +647,7 @@ class UniDG(Algorithm):
                 pre_p = self.pre_model.classifier(pre_z)
 
             # Marginal Generalization
-            loss_cons = (max((torch.pow(z - pre_z, 2)-self.sigma),0)).mean() 
+            loss_cons = torch.max(torch.pow(z - pre_z, 2) - self.sigma, torch.tensor(0.0)).mean()
         
             loss_ent = softmax_entropy(p).mean(0)
             loss = self.lamb * loss_cons + loss_ent

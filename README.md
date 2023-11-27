@@ -40,6 +40,11 @@
 [![website](https://img.shields.io/badge/Project-Website-brightgreen)](https://invictus717.github.io/Generalization/)
 [![LICENSE](https://img.shields.io/badge/LICENSE-Apache2.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 <!-- ![](https://img.shields.io/github/stars/invictus717/UniDG?style=social) -->
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-unified-and-effective-domain/domain-generalization-on-terraincognita)](https://paperswithcode.com/sota/domain-generalization-on-terraincognita?p=towards-unified-and-effective-domain)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-unified-and-effective-domain/domain-generalization-on-office-home)](https://paperswithcode.com/sota/domain-generalization-on-office-home?p=towards-unified-and-effective-domain)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-unified-and-effective-domain/domain-generalization-on-vlcs)](https://paperswithcode.com/sota/domain-generalization-on-vlcs?p=towards-unified-and-effective-domain)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-unified-and-effective-domain/domain-generalization-on-domainnet)](https://paperswithcode.com/sota/domain-generalization-on-domainnet?p=towards-unified-and-effective-domain)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-unified-and-effective-domain/domain-generalization-on-pacs-2)](https://paperswithcode.com/sota/domain-generalization-on-pacs-2?p=towards-unified-and-effective-domain)
 ## Highlights ⭐⭐⭐
 - 🚀 ***UniDG* is an effective Test-Time Adaptation scheme. It brings out an average improvement to existing DG methods by `+5.0%` Accuracy on DomainBed benchmarks including PACS, VLCS, OfficeHome, and TerraInc datasets.**
   
